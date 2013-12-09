@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Share File"
+        android:id="@+id/shareFileButton" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Request File"
+        android:id="@+id/requestFileButton" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer File"
+        android:id="@+id/offerFileButton" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Sending File"
+        android:id="@+id/cancelSendingButton" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Receiving File"
+        android:id="@+id/cancelReceivingButton" />    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Receiving File"
+        android:id="@+id/pauseReceivingButton" />
+	<ProgressBar 
+	    style="@android:style/Widget.ProgressBar.Horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	    
+	    android:id="@+id/progressBar"/>
+</LinearLayout>

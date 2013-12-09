@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File Transfer Sample App</string>
+    <string name="create">Host Session</string>
+    <string name="join">Join Session</string>
+    <string name="share">Share File</string>
+    <string name="stopShare">Unshare File</string>
+    <string name="request">Request File</string>
+    <string name="offer">Offer File</string>
+    <string name="fileId">Request File Annoucement by Path</string>
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    <string name="receiveTitle">Receive Progress</string>
+    <string name="sendTitle">Send Progress</string>
+</resources>

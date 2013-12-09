@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8710D1F91704BED500E48A16 /* API Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8710D1FE1704BED500E48A16 /* Build configuration list for PBXAggregateTarget "API Documentation" */;
+			buildPhases = (
+				8710D1FF1704BEDA00E48A16 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "API Documentation";
+			productName = "API Documentation";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		621FDA2E16E6A03400E54384 /* AJNFileTransferBusObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 621FDA2B16E6A03400E54384 /* AJNFileTransferBusObject.mm */; };
+		621FDA2F16E6A03400E54384 /* FileTransferBusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FDA2D16E6A03400E54384 /* FileTransferBusObject.m */; };
+		624202F4170396EB00405699 /* FTMFileTransferBusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 624202F3170396EB00405699 /* FTMFileTransferBusObject.m */; };
+		627EE19916FB7FF2005FE424 /* FTMReceiverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 627EE19816FB7FF2005FE424 /* FTMReceiverTest.m */; };
+		62B8A6C016E7C85D0072FE86 /* FTMTransmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A6BF16E7C85D0072FE86 /* FTMTransmitterTest.m */; };
+		62B8A6C516E7CD230072FE86 /* FTMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A6C416E7CD230072FE86 /* FTMConstants.m */; };
+		62C94A1016E6A76F007B47C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8760A52B16E10CC400608DFB /* SystemConfiguration.framework */; };
+		62C94A1116E6A774007B47C8 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8760A52F16E1170400608DFB /* libstdc++.6.0.9.dylib */; };
+		62D99A0516E6BBE4004756EC /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B4065616E6A1AF007D2138 /* libcrypto.a */; };
+		7E19F4A216E3CA2500ECEFC6 /* FTMFileStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19F4A116E3CA2500ECEFC6 /* FTMFileStatus.m */; };
+		7E19F4A516E3F27400ECEFC6 /* FTMProgressDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19F4A416E3F27400ECEFC6 /* FTMProgressDescriptor.m */; };
+		7EC3ABF516C2BD7700962671 /* FTMAnnouncementManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3ABF416C2BD7700962671 /* FTMAnnouncementManagerTests.m */; };
+		7EC3ABF816C2BE4400962671 /* FTMDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3ABF716C2BE4400962671 /* FTMDispatcherTests.m */; };
+		7EC3ABFF16C2C0D700962671 /* FTMReceiveManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3ABFE16C2C0D700962671 /* FTMReceiveManagerTests.m */; };
+		7EC3AC0216C2C0F900962671 /* FTMFileSystemAbstractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC0116C2C0F900962671 /* FTMFileSystemAbstractionTests.m */; };
+		7EC3AC0516C2C3B600962671 /* FTMOfferManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC0416C2C3B500962671 /* FTMOfferManagerTests.m */; };
+		7EC3AC0816C2C3DA00962671 /* FTMPermissionsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC0716C2C3DA00962671 /* FTMPermissionsManagerTests.m */; };
+		7EC3AC0B16C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC0A16C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.m */; };
+		7EC3AC0E16C2C40100962671 /* FTMSendManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC0D16C2C40100962671 /* FTMSendManagerTests.m */; };
+		7EC3AC1116C2C5A800962671 /* FTMMockAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1016C2C5A800962671 /* FTMMockAnnouncementManager.m */; };
+		7EC3AC1416C2C5C000962671 /* FTMMockDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1316C2C5C000962671 /* FTMMockDispatcher.m */; };
+		7EC3AC1716C2C5D500962671 /* FTMMockReceiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1616C2C5D500962671 /* FTMMockReceiveManager.m */; };
+		7EC3AC1A16C2C5E500962671 /* FTMMockFileSystemAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1916C2C5E500962671 /* FTMMockFileSystemAbstraction.m */; };
+		7EC3AC1D16C2C5FB00962671 /* FTMMockOfferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1C16C2C5FB00962671 /* FTMMockOfferManager.m */; };
+		7EC3AC2016C2C61300962671 /* FTMMockPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC1F16C2C61200962671 /* FTMMockPermissionsManager.m */; };
+		7EC3AC2316C2C64200962671 /* FTMMockDirectedAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC2216C2C64200962671 /* FTMMockDirectedAnnouncementManager.m */; };
+		7EC3AC2616C2C65500962671 /* FTMMockSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3AC2516C2C65500962671 /* FTMMockSendManager.m */; };
+		7EC8D13A16E2C02600D9BFD6 /* FTMTransmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8D13916E2C02600D9BFD6 /* FTMTransmitter.m */; };
+		7EC8D13D16E2D94700D9BFD6 /* FTMReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8D13C16E2D94700D9BFD6 /* FTMReceiver.m */; };
+		7EFC976516C1ADE00011DD4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFC976416C1ADE00011DD4A /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7EFC976A16C1ADE00011DD4A /* FTMFileTransferModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EFC976916C1ADE00011DD4A /* FTMFileTransferModule.h */; };
+		7EFC976C16C1ADE00011DD4A /* FTMFileTransferModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC976B16C1ADE00011DD4A /* FTMFileTransferModule.m */; };
+		7EFC977416C1ADE00011DD4A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFC977316C1ADE00011DD4A /* SenTestingKit.framework */; };
+		7EFC977716C1ADE00011DD4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFC976416C1ADE00011DD4A /* Foundation.framework */; };
+		7EFC977A16C1ADE00011DD4A /* libFileTransferModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFC976116C1ADE00011DD4A /* libFileTransferModule.a */; };
+		7EFC978016C1ADE00011DD4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC977E16C1ADE00011DD4A /* InfoPlist.strings */; };
+		7EFC978316C1ADE00011DD4A /* FTMFileTransferModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC978216C1ADE00011DD4A /* FTMFileTransferModuleTests.m */; };
+		7EFC979516C1AE530011DD4A /* FTMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC978F16C1AE530011DD4A /* FTMAction.m */; };
+		7EFC979616C1AE530011DD4A /* FTMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC978F16C1AE530011DD4A /* FTMAction.m */; };
+		7EFC979716C1AE530011DD4A /* FTMFileDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC979116C1AE530011DD4A /* FTMFileDescriptor.m */; };
+		7EFC979816C1AE530011DD4A /* FTMFileDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC979116C1AE530011DD4A /* FTMFileDescriptor.m */; };
+		7EFC97AE16C1AECB0011DD4A /* FTMAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC979F16C1AECB0011DD4A /* FTMAnnouncementManager.m */; };
+		7EFC97AF16C1AECB0011DD4A /* FTMAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC979F16C1AECB0011DD4A /* FTMAnnouncementManager.m */; };
+		7EFC97B016C1AECB0011DD4A /* FTMDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A116C1AECB0011DD4A /* FTMDispatcher.m */; };
+		7EFC97B116C1AECB0011DD4A /* FTMDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A116C1AECB0011DD4A /* FTMDispatcher.m */; };
+		7EFC97B216C1AECB0011DD4A /* FTMReceiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A316C1AECB0011DD4A /* FTMReceiveManager.m */; };
+		7EFC97B316C1AECB0011DD4A /* FTMReceiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A316C1AECB0011DD4A /* FTMReceiveManager.m */; };
+		7EFC97B416C1AECB0011DD4A /* FTMFileSystemAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A516C1AECB0011DD4A /* FTMFileSystemAbstraction.m */; };
+		7EFC97B516C1AECB0011DD4A /* FTMFileSystemAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A516C1AECB0011DD4A /* FTMFileSystemAbstraction.m */; };
+		7EFC97B616C1AECB0011DD4A /* FTMOfferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A716C1AECB0011DD4A /* FTMOfferManager.m */; };
+		7EFC97B716C1AECB0011DD4A /* FTMOfferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A716C1AECB0011DD4A /* FTMOfferManager.m */; };
+		7EFC97B816C1AECB0011DD4A /* FTMPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A916C1AECB0011DD4A /* FTMPermissionManager.m */; };
+		7EFC97B916C1AECB0011DD4A /* FTMPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97A916C1AECB0011DD4A /* FTMPermissionManager.m */; };
+		7EFC97BA16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97AB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m */; };
+		7EFC97BB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97AB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m */; };
+		7EFC97BC16C1AECB0011DD4A /* FTMSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97AD16C1AECB0011DD4A /* FTMSendManager.m */; };
+		7EFC97BD16C1AECB0011DD4A /* FTMSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC97AD16C1AECB0011DD4A /* FTMSendManager.m */; };
+		870C161616FBD0C400C6F537 /* FTMMockTransmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C161516FBD0C400C6F537 /* FTMMockTransmitter.m */; };
+		8760A52C16E10CC400608DFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8760A52B16E10CC400608DFB /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8760A53016E1170400608DFB /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8760A52F16E1170400608DFB /* libstdc++.6.0.9.dylib */; };
+		B828231416EEC7EA0062FEBC /* libAllJoynFramework_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B828230F16EEC7D70062FEBC /* libAllJoynFramework_iOS.a */; };
+		B82A5AFE16F3891E0017499B /* FTMMessageUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = B82A5AFD16F3891E0017499B /* FTMMessageUtility.mm */; };
+		B8B4065916E6A218007D2138 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B4065616E6A1AF007D2138 /* libcrypto.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D99A0016E6BBCF004756EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9069D28B0FCE659A0042E34C;
+			remoteInfo = crypto;
+		};
+		7EFC977816C1ADE00011DD4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFC975916C1ADE00011DD4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFC976016C1ADE00011DD4A;
+			remoteInfo = FileTransferModule;
+		};
+		B828230E16EEC7D70062FEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC1030A8156EC82300D2853A;
+			remoteInfo = AllJoynFramework_iOS;
+		};
+		B828231016EEC7D70062FEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC1030B8156EC82300D2853A;
+			remoteInfo = AllJoynFramework_iOSTests;
+		};
+		B828231216EEC7E30062FEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1030A7156EC82300D2853A;
+			remoteInfo = AllJoynFramework_iOS;
+		};
+		B8B4065516E6A1AF007D2138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9069D28C0FCE659A0042E34C;
+			remoteInfo = crypto;
+		};
+		B8B4065716E6A214007D2138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9069D28B0FCE659A0042E34C;
+			remoteInfo = crypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EFC975F16C1ADE00011DD4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7EFC976A16C1ADE00011DD4A /* FTMFileTransferModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		621FDA2A16E6A03400E54384 /* AJNFileTransferBusObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJNFileTransferBusObject.h; sourceTree = "<group>"; };
+		621FDA2B16E6A03400E54384 /* AJNFileTransferBusObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AJNFileTransferBusObject.mm; sourceTree = "<group>"; };
+		621FDA2C16E6A03400E54384 /* FileTransferBusObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTransferBusObject.h; sourceTree = "<group>"; };
+		621FDA2D16E6A03400E54384 /* FileTransferBusObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTransferBusObject.m; sourceTree = "<group>"; };
+		624202F2170396EB00405699 /* FTMFileTransferBusObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileTransferBusObject.h; sourceTree = "<group>"; };
+		624202F3170396EB00405699 /* FTMFileTransferBusObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMFileTransferBusObject.m; sourceTree = "<group>"; };
+		627EE19716FB7FF2005FE424 /* FTMReceiverTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMReceiverTest.h; sourceTree = "<group>"; };
+		627EE19816FB7FF2005FE424 /* FTMReceiverTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMReceiverTest.m; sourceTree = "<group>"; };
+		62B8A6BE16E7C85D0072FE86 /* FTMTransmitterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMTransmitterTest.h; sourceTree = "<group>"; };
+		62B8A6BF16E7C85D0072FE86 /* FTMTransmitterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMTransmitterTest.m; sourceTree = "<group>"; };
+		62B8A6C316E7CD230072FE86 /* FTMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMConstants.h; sourceTree = "<group>"; };
+		62B8A6C416E7CD230072FE86 /* FTMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMConstants.m; sourceTree = "<group>"; };
+		7E19F4A016E3CA2500ECEFC6 /* FTMFileStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileStatus.h; sourceTree = "<group>"; };
+		7E19F4A116E3CA2500ECEFC6 /* FTMFileStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMFileStatus.m; sourceTree = "<group>"; };
+		7E19F4A316E3F27400ECEFC6 /* FTMProgressDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMProgressDescriptor.h; sourceTree = "<group>"; };
+		7E19F4A416E3F27400ECEFC6 /* FTMProgressDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMProgressDescriptor.m; sourceTree = "<group>"; };
+		7EC3ABF316C2BD7700962671 /* FTMAnnouncementManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMAnnouncementManagerTests.h; sourceTree = "<group>"; };
+		7EC3ABF416C2BD7700962671 /* FTMAnnouncementManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMAnnouncementManagerTests.m; sourceTree = "<group>"; };
+		7EC3ABF616C2BE4400962671 /* FTMDispatcherTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMDispatcherTests.h; sourceTree = "<group>"; };
+		7EC3ABF716C2BE4400962671 /* FTMDispatcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMDispatcherTests.m; sourceTree = "<group>"; };
+		7EC3ABFD16C2C0D700962671 /* FTMReceiveManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMReceiveManagerTests.h; sourceTree = "<group>"; };
+		7EC3ABFE16C2C0D700962671 /* FTMReceiveManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMReceiveManagerTests.m; sourceTree = "<group>"; };
+		7EC3AC0016C2C0F900962671 /* FTMFileSystemAbstractionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileSystemAbstractionTests.h; sourceTree = "<group>"; };
+		7EC3AC0116C2C0F900962671 /* FTMFileSystemAbstractionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMFileSystemAbstractionTests.m; sourceTree = "<group>"; };
+		7EC3AC0316C2C3B500962671 /* FTMOfferManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMOfferManagerTests.h; sourceTree = "<group>"; };
+		7EC3AC0416C2C3B500962671 /* FTMOfferManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMOfferManagerTests.m; sourceTree = "<group>"; };
+		7EC3AC0616C2C3DA00962671 /* FTMPermissionsManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMPermissionsManagerTests.h; sourceTree = "<group>"; };
+		7EC3AC0716C2C3DA00962671 /* FTMPermissionsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMPermissionsManagerTests.m; sourceTree = "<group>"; };
+		7EC3AC0916C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMDirectedAnnouncementManagerTests.h; sourceTree = "<group>"; };
+		7EC3AC0A16C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMDirectedAnnouncementManagerTests.m; sourceTree = "<group>"; };
+		7EC3AC0C16C2C40100962671 /* FTMSendManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMSendManagerTests.h; sourceTree = "<group>"; };
+		7EC3AC0D16C2C40100962671 /* FTMSendManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMSendManagerTests.m; sourceTree = "<group>"; };
+		7EC3AC0F16C2C5A800962671 /* FTMMockAnnouncementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockAnnouncementManager.h; sourceTree = "<group>"; };
+		7EC3AC1016C2C5A800962671 /* FTMMockAnnouncementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockAnnouncementManager.m; sourceTree = "<group>"; };
+		7EC3AC1216C2C5C000962671 /* FTMMockDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockDispatcher.h; sourceTree = "<group>"; };
+		7EC3AC1316C2C5C000962671 /* FTMMockDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockDispatcher.m; sourceTree = "<group>"; };
+		7EC3AC1516C2C5D500962671 /* FTMMockReceiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockReceiveManager.h; sourceTree = "<group>"; };
+		7EC3AC1616C2C5D500962671 /* FTMMockReceiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockReceiveManager.m; sourceTree = "<group>"; };
+		7EC3AC1816C2C5E500962671 /* FTMMockFileSystemAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockFileSystemAbstraction.h; sourceTree = "<group>"; };
+		7EC3AC1916C2C5E500962671 /* FTMMockFileSystemAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockFileSystemAbstraction.m; sourceTree = "<group>"; };
+		7EC3AC1B16C2C5FB00962671 /* FTMMockOfferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockOfferManager.h; sourceTree = "<group>"; };
+		7EC3AC1C16C2C5FB00962671 /* FTMMockOfferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockOfferManager.m; sourceTree = "<group>"; };
+		7EC3AC1E16C2C61200962671 /* FTMMockPermissionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockPermissionsManager.h; sourceTree = "<group>"; };
+		7EC3AC1F16C2C61200962671 /* FTMMockPermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockPermissionsManager.m; sourceTree = "<group>"; };
+		7EC3AC2116C2C64200962671 /* FTMMockDirectedAnnouncementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockDirectedAnnouncementManager.h; sourceTree = "<group>"; };
+		7EC3AC2216C2C64200962671 /* FTMMockDirectedAnnouncementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockDirectedAnnouncementManager.m; sourceTree = "<group>"; };
+		7EC3AC2416C2C65500962671 /* FTMMockSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockSendManager.h; sourceTree = "<group>"; };
+		7EC3AC2516C2C65500962671 /* FTMMockSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockSendManager.m; sourceTree = "<group>"; };
+		7EC8D13816E2C02500D9BFD6 /* FTMTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMTransmitter.h; sourceTree = "<group>"; };
+		7EC8D13916E2C02600D9BFD6 /* FTMTransmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMTransmitter.m; sourceTree = "<group>"; };
+		7EC8D13B16E2D94700D9BFD6 /* FTMReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMReceiver.h; sourceTree = "<group>"; };
+		7EC8D13C16E2D94700D9BFD6 /* FTMReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMReceiver.m; sourceTree = "<group>"; };
+		7EFC976116C1ADE00011DD4A /* libFileTransferModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFileTransferModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFC976416C1ADE00011DD4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EFC976816C1ADE00011DD4A /* FileTransferModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileTransferModule-Prefix.pch"; sourceTree = "<group>"; };
+		7EFC976916C1ADE00011DD4A /* FTMFileTransferModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMFileTransferModule.h; sourceTree = "<group>"; };
+		7EFC976B16C1ADE00011DD4A /* FTMFileTransferModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMFileTransferModule.m; sourceTree = "<group>"; };
+		7EFC977216C1ADE00011DD4A /* FileTransferModuleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileTransferModuleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFC977316C1ADE00011DD4A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7EFC977D16C1ADE00011DD4A /* FileTransferModuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileTransferModuleTests-Info.plist"; sourceTree = "<group>"; };
+		7EFC977F16C1ADE00011DD4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EFC978116C1ADE00011DD4A /* FTMFileTransferModuleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMFileTransferModuleTests.h; sourceTree = "<group>"; };
+		7EFC978216C1ADE00011DD4A /* FTMFileTransferModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMFileTransferModuleTests.m; sourceTree = "<group>"; };
+		7EFC978E16C1AE530011DD4A /* FTMAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMAction.h; sourceTree = "<group>"; };
+		7EFC978F16C1AE530011DD4A /* FTMAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMAction.m; sourceTree = "<group>"; };
+		7EFC979016C1AE530011DD4A /* FTMFileDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileDescriptor.h; sourceTree = "<group>"; };
+		7EFC979116C1AE530011DD4A /* FTMFileDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMFileDescriptor.m; sourceTree = "<group>"; };
+		7EFC979416C1AE530011DD4A /* FTMStatusCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMStatusCode.h; sourceTree = "<group>"; };
+		7EFC979E16C1AECB0011DD4A /* FTMAnnouncementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMAnnouncementManager.h; sourceTree = "<group>"; };
+		7EFC979F16C1AECB0011DD4A /* FTMAnnouncementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMAnnouncementManager.m; sourceTree = "<group>"; };
+		7EFC97A016C1AECB0011DD4A /* FTMDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMDispatcher.h; sourceTree = "<group>"; };
+		7EFC97A116C1AECB0011DD4A /* FTMDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMDispatcher.m; sourceTree = "<group>"; };
+		7EFC97A216C1AECB0011DD4A /* FTMReceiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMReceiveManager.h; sourceTree = "<group>"; };
+		7EFC97A316C1AECB0011DD4A /* FTMReceiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMReceiveManager.m; sourceTree = "<group>"; };
+		7EFC97A416C1AECB0011DD4A /* FTMFileSystemAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileSystemAbstraction.h; sourceTree = "<group>"; };
+		7EFC97A516C1AECB0011DD4A /* FTMFileSystemAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMFileSystemAbstraction.m; sourceTree = "<group>"; };
+		7EFC97A616C1AECB0011DD4A /* FTMOfferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMOfferManager.h; sourceTree = "<group>"; };
+		7EFC97A716C1AECB0011DD4A /* FTMOfferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMOfferManager.m; sourceTree = "<group>"; };
+		7EFC97A816C1AECB0011DD4A /* FTMPermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMPermissionManager.h; sourceTree = "<group>"; };
+		7EFC97A916C1AECB0011DD4A /* FTMPermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMPermissionManager.m; sourceTree = "<group>"; };
+		7EFC97AA16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMDirectedAnnouncementManager.h; sourceTree = "<group>"; };
+		7EFC97AB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMDirectedAnnouncementManager.m; sourceTree = "<group>"; };
+		7EFC97AC16C1AECB0011DD4A /* FTMSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMSendManager.h; sourceTree = "<group>"; };
+		7EFC97AD16C1AECB0011DD4A /* FTMSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMSendManager.m; sourceTree = "<group>"; };
+		870C161416FBD0C400C6F537 /* FTMMockTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMockTransmitter.h; sourceTree = "<group>"; };
+		870C161516FBD0C400C6F537 /* FTMMockTransmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMMockTransmitter.m; sourceTree = "<group>"; };
+		870C161816FBE5E600C6F537 /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		8760A52B16E10CC400608DFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8760A52F16E1170400608DFB /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		87B2B09416DD4672006A7EC5 /* FTMAnnouncementManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMAnnouncementManagerDelegate.h; sourceTree = "<group>"; };
+		87B2B09516DD4766006A7EC5 /* FTMDirectedAnnouncementManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMDirectedAnnouncementManagerDelegate.h; sourceTree = "<group>"; };
+		87B2B09616DD48C7006A7EC5 /* FTMFileAnnouncementReceivedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileAnnouncementReceivedDelegate.h; sourceTree = "<group>"; };
+		87B2B09716DD4985006A7EC5 /* FTMFileAnnouncementSentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileAnnouncementSentDelegate.h; sourceTree = "<group>"; };
+		87B2B09816DD49E1006A7EC5 /* FTMFileCompletedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMFileCompletedDelegate.h; sourceTree = "<group>"; };
+		87B2B09A16DD4A4C006A7EC5 /* FTMOfferManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMOfferManagerDelegate.h; sourceTree = "<group>"; };
+		87B2B09B16DD4B73006A7EC5 /* FTMOfferReceivedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMOfferReceivedDelegate.h; sourceTree = "<group>"; };
+		87B2B09C16DD53D3006A7EC5 /* FTMReceiveManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMReceiveManagerDelegate.h; sourceTree = "<group>"; };
+		87B2B09D16DD5534006A7EC5 /* FTMRequestDataReceivedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMRequestDataReceivedDelegate.h; sourceTree = "<group>"; };
+		87B2B09E16DD55C1006A7EC5 /* FTMSendManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMSendManagerDelegate.h; sourceTree = "<group>"; };
+		87B2B09F16DD56AC006A7EC5 /* FTMUnannouncedFileRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMUnannouncedFileRequestDelegate.h; sourceTree = "<group>"; };
+		B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AllJoynFramework_iOS.xcodeproj; path = alljoyn_objc/AllJoynFramework_iOS/AllJoynFramework_iOS.xcodeproj; sourceTree = ALLJOYN_HOME; };
+		B82A5AFC16F3891E0017499B /* FTMMessageUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMMessageUtility.h; sourceTree = "<group>"; };
+		B82A5AFD16F3891E0017499B /* FTMMessageUtility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FTMMessageUtility.mm; sourceTree = "<group>"; };
+		B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = openssl.xcodeproj; sourceTree = OPENSSL_PROJ; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFC975E16C1ADE00011DD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B828231416EEC7EA0062FEBC /* libAllJoynFramework_iOS.a in Frameworks */,
+				B8B4065916E6A218007D2138 /* libcrypto.a in Frameworks */,
+				8760A53016E1170400608DFB /* libstdc++.6.0.9.dylib in Frameworks */,
+				8760A52C16E10CC400608DFB /* SystemConfiguration.framework in Frameworks */,
+				7EFC976516C1ADE00011DD4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFC976E16C1ADE00011DD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D99A0516E6BBE4004756EC /* libcrypto.a in Frameworks */,
+				62C94A1116E6A774007B47C8 /* libstdc++.6.0.9.dylib in Frameworks */,
+				62C94A1016E6A76F007B47C8 /* SystemConfiguration.framework in Frameworks */,
+				7EFC977416C1ADE00011DD4A /* SenTestingKit.framework in Frameworks */,
+				7EFC977716C1ADE00011DD4A /* Foundation.framework in Frameworks */,
+				7EFC977A16C1ADE00011DD4A /* libFileTransferModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC3ABF916C2BF2E00962671 /* MockClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3AC0F16C2C5A800962671 /* FTMMockAnnouncementManager.h */,
+				7EC3AC1016C2C5A800962671 /* FTMMockAnnouncementManager.m */,
+				7EC3AC2116C2C64200962671 /* FTMMockDirectedAnnouncementManager.h */,
+				7EC3AC2216C2C64200962671 /* FTMMockDirectedAnnouncementManager.m */,
+				7EC3AC1216C2C5C000962671 /* FTMMockDispatcher.h */,
+				7EC3AC1316C2C5C000962671 /* FTMMockDispatcher.m */,
+				7EC3AC1816C2C5E500962671 /* FTMMockFileSystemAbstraction.h */,
+				7EC3AC1916C2C5E500962671 /* FTMMockFileSystemAbstraction.m */,
+				7EC3AC1B16C2C5FB00962671 /* FTMMockOfferManager.h */,
+				7EC3AC1C16C2C5FB00962671 /* FTMMockOfferManager.m */,
+				7EC3AC1E16C2C61200962671 /* FTMMockPermissionsManager.h */,
+				7EC3AC1F16C2C61200962671 /* FTMMockPermissionsManager.m */,
+				7EC3AC1516C2C5D500962671 /* FTMMockReceiveManager.h */,
+				7EC3AC1616C2C5D500962671 /* FTMMockReceiveManager.m */,
+				7EC3AC2416C2C65500962671 /* FTMMockSendManager.h */,
+				7EC3AC2516C2C65500962671 /* FTMMockSendManager.m */,
+				870C161416FBD0C400C6F537 /* FTMMockTransmitter.h */,
+				870C161516FBD0C400C6F537 /* FTMMockTransmitter.m */,
+				870C161816FBE5E600C6F537 /* TestProtocol.h */,
+			);
+			name = MockClasses;
+			sourceTree = "<group>";
+		};
+		7EFC975816C1ADE00011DD4A = {
+			isa = PBXGroup;
+			children = (
+				B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */,
+				B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */,
+				7EFC976616C1ADE00011DD4A /* FileTransferModule */,
+				7EFC977B16C1ADE00011DD4A /* FileTransferModuleTests */,
+				7EFC976316C1ADE00011DD4A /* Frameworks */,
+				7EFC976216C1ADE00011DD4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFC976216C1ADE00011DD4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC976116C1ADE00011DD4A /* libFileTransferModule.a */,
+				7EFC977216C1ADE00011DD4A /* FileTransferModuleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFC976316C1ADE00011DD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8760A52F16E1170400608DFB /* libstdc++.6.0.9.dylib */,
+				8760A52B16E10CC400608DFB /* SystemConfiguration.framework */,
+				7EFC976416C1ADE00011DD4A /* Foundation.framework */,
+				7EFC977316C1ADE00011DD4A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EFC976616C1ADE00011DD4A /* FileTransferModule */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC979D16C1AE710011DD4A /* FileTransfer */,
+				7EFC979C16C1AE660011DD4A /* Listeners */,
+				7EFC979B16C1AE590011DD4A /* AllJoyn */,
+				7EFC978C16C1ADF70011DD4A /* Data */,
+				7EFC976916C1ADE00011DD4A /* FTMFileTransferModule.h */,
+				7EFC976B16C1ADE00011DD4A /* FTMFileTransferModule.m */,
+				7EFC976716C1ADE00011DD4A /* Supporting Files */,
+			);
+			path = FileTransferModule;
+			sourceTree = "<group>";
+		};
+		7EFC976716C1ADE00011DD4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC976816C1ADE00011DD4A /* FileTransferModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EFC977B16C1ADE00011DD4A /* FileTransferModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3ABF916C2BF2E00962671 /* MockClasses */,
+				7EFC978116C1ADE00011DD4A /* FTMFileTransferModuleTests.h */,
+				7EFC978216C1ADE00011DD4A /* FTMFileTransferModuleTests.m */,
+				7EC3ABF316C2BD7700962671 /* FTMAnnouncementManagerTests.h */,
+				7EC3ABF416C2BD7700962671 /* FTMAnnouncementManagerTests.m */,
+				7EC3AC0916C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.h */,
+				7EC3AC0A16C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.m */,
+				7EC3ABF616C2BE4400962671 /* FTMDispatcherTests.h */,
+				7EC3ABF716C2BE4400962671 /* FTMDispatcherTests.m */,
+				7EC3AC0016C2C0F900962671 /* FTMFileSystemAbstractionTests.h */,
+				7EC3AC0116C2C0F900962671 /* FTMFileSystemAbstractionTests.m */,
+				7EC3AC0316C2C3B500962671 /* FTMOfferManagerTests.h */,
+				7EC3AC0416C2C3B500962671 /* FTMOfferManagerTests.m */,
+				7EC3AC0616C2C3DA00962671 /* FTMPermissionsManagerTests.h */,
+				7EC3AC0716C2C3DA00962671 /* FTMPermissionsManagerTests.m */,
+				7EC3ABFD16C2C0D700962671 /* FTMReceiveManagerTests.h */,
+				7EC3ABFE16C2C0D700962671 /* FTMReceiveManagerTests.m */,
+				7EC3AC0C16C2C40100962671 /* FTMSendManagerTests.h */,
+				7EC3AC0D16C2C40100962671 /* FTMSendManagerTests.m */,
+				62B8A6BE16E7C85D0072FE86 /* FTMTransmitterTest.h */,
+				62B8A6BF16E7C85D0072FE86 /* FTMTransmitterTest.m */,
+				627EE19716FB7FF2005FE424 /* FTMReceiverTest.h */,
+				627EE19816FB7FF2005FE424 /* FTMReceiverTest.m */,
+				7EFC977C16C1ADE00011DD4A /* Supporting Files */,
+			);
+			path = FileTransferModuleTests;
+			sourceTree = "<group>";
+		};
+		7EFC977C16C1ADE00011DD4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC977D16C1ADE00011DD4A /* FileTransferModuleTests-Info.plist */,
+				7EFC977E16C1ADE00011DD4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EFC978C16C1ADF70011DD4A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				62B8A6C316E7CD230072FE86 /* FTMConstants.h */,
+				62B8A6C416E7CD230072FE86 /* FTMConstants.m */,
+				7EFC978E16C1AE530011DD4A /* FTMAction.h */,
+				7EFC978F16C1AE530011DD4A /* FTMAction.m */,
+				7EFC979016C1AE530011DD4A /* FTMFileDescriptor.h */,
+				7EFC979116C1AE530011DD4A /* FTMFileDescriptor.m */,
+				7E19F4A016E3CA2500ECEFC6 /* FTMFileStatus.h */,
+				7E19F4A116E3CA2500ECEFC6 /* FTMFileStatus.m */,
+				7E19F4A316E3F27400ECEFC6 /* FTMProgressDescriptor.h */,
+				7E19F4A416E3F27400ECEFC6 /* FTMProgressDescriptor.m */,
+				7EFC979416C1AE530011DD4A /* FTMStatusCode.h */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		7EFC979B16C1AE590011DD4A /* AllJoyn */ = {
+			isa = PBXGroup;
+			children = (
+				621FDA2A16E6A03400E54384 /* AJNFileTransferBusObject.h */,
+				621FDA2B16E6A03400E54384 /* AJNFileTransferBusObject.mm */,
+				621FDA2C16E6A03400E54384 /* FileTransferBusObject.h */,
+				621FDA2D16E6A03400E54384 /* FileTransferBusObject.m */,
+				B82A5AFC16F3891E0017499B /* FTMMessageUtility.h */,
+				B82A5AFD16F3891E0017499B /* FTMMessageUtility.mm */,
+				624202F2170396EB00405699 /* FTMFileTransferBusObject.h */,
+				624202F3170396EB00405699 /* FTMFileTransferBusObject.m */,
+			);
+			name = AllJoyn;
+			sourceTree = "<group>";
+		};
+		7EFC979C16C1AE660011DD4A /* Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				87B2B09416DD4672006A7EC5 /* FTMAnnouncementManagerDelegate.h */,
+				87B2B09516DD4766006A7EC5 /* FTMDirectedAnnouncementManagerDelegate.h */,
+				87B2B09616DD48C7006A7EC5 /* FTMFileAnnouncementReceivedDelegate.h */,
+				87B2B09716DD4985006A7EC5 /* FTMFileAnnouncementSentDelegate.h */,
+				87B2B09816DD49E1006A7EC5 /* FTMFileCompletedDelegate.h */,
+				87B2B09A16DD4A4C006A7EC5 /* FTMOfferManagerDelegate.h */,
+				87B2B09B16DD4B73006A7EC5 /* FTMOfferReceivedDelegate.h */,
+				87B2B09C16DD53D3006A7EC5 /* FTMReceiveManagerDelegate.h */,
+				87B2B09D16DD5534006A7EC5 /* FTMRequestDataReceivedDelegate.h */,
+				87B2B09E16DD55C1006A7EC5 /* FTMSendManagerDelegate.h */,
+				87B2B09F16DD56AC006A7EC5 /* FTMUnannouncedFileRequestDelegate.h */,
+			);
+			name = Listeners;
+			sourceTree = "<group>";
+		};
+		7EFC979D16C1AE710011DD4A /* FileTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC979E16C1AECB0011DD4A /* FTMAnnouncementManager.h */,
+				7EFC979F16C1AECB0011DD4A /* FTMAnnouncementManager.m */,
+				7EFC97AA16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.h */,
+				7EFC97AB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m */,
+				7EFC97A016C1AECB0011DD4A /* FTMDispatcher.h */,
+				7EFC97A116C1AECB0011DD4A /* FTMDispatcher.m */,
+				7EFC97A416C1AECB0011DD4A /* FTMFileSystemAbstraction.h */,
+				7EFC97A516C1AECB0011DD4A /* FTMFileSystemAbstraction.m */,
+				7EFC97A616C1AECB0011DD4A /* FTMOfferManager.h */,
+				7EFC97A716C1AECB0011DD4A /* FTMOfferManager.m */,
+				7EFC97A816C1AECB0011DD4A /* FTMPermissionManager.h */,
+				7EFC97A916C1AECB0011DD4A /* FTMPermissionManager.m */,
+				7EFC97A216C1AECB0011DD4A /* FTMReceiveManager.h */,
+				7EFC97A316C1AECB0011DD4A /* FTMReceiveManager.m */,
+				7EC8D13B16E2D94700D9BFD6 /* FTMReceiver.h */,
+				7EC8D13C16E2D94700D9BFD6 /* FTMReceiver.m */,
+				7EFC97AC16C1AECB0011DD4A /* FTMSendManager.h */,
+				7EFC97AD16C1AECB0011DD4A /* FTMSendManager.m */,
+				7EC8D13816E2C02500D9BFD6 /* FTMTransmitter.h */,
+				7EC8D13916E2C02600D9BFD6 /* FTMTransmitter.m */,
+			);
+			name = FileTransfer;
+			sourceTree = "<group>";
+		};
+		B828230916EEC7D70062FEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B828230F16EEC7D70062FEBC /* libAllJoynFramework_iOS.a */,
+				B828231116EEC7D70062FEBC /* AllJoynFramework_iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B4065016E6A1AF007D2138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B4065616E6A1AF007D2138 /* libcrypto.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFC976016C1ADE00011DD4A /* FileTransferModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFC978616C1ADE00011DD4A /* Build configuration list for PBXNativeTarget "FileTransferModule" */;
+			buildPhases = (
+				7EFC975D16C1ADE00011DD4A /* Sources */,
+				7EFC975E16C1ADE00011DD4A /* Frameworks */,
+				7EFC975F16C1ADE00011DD4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B828231316EEC7E30062FEBC /* PBXTargetDependency */,
+				B8B4065816E6A214007D2138 /* PBXTargetDependency */,
+			);
+			name = FileTransferModule;
+			productName = FileTransferModule;
+			productReference = 7EFC976116C1ADE00011DD4A /* libFileTransferModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EFC977116C1ADE00011DD4A /* FileTransferModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFC978916C1ADE00011DD4A /* Build configuration list for PBXNativeTarget "FileTransferModuleTests" */;
+			buildPhases = (
+				7EFC976D16C1ADE00011DD4A /* Sources */,
+				7EFC976E16C1ADE00011DD4A /* Frameworks */,
+				7EFC976F16C1ADE00011DD4A /* Resources */,
+				7EFC977016C1ADE00011DD4A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D99A0116E6BBCF004756EC /* PBXTargetDependency */,
+				7EFC977916C1ADE00011DD4A /* PBXTargetDependency */,
+			);
+			name = FileTransferModuleTests;
+			productName = FileTransferModuleTests;
+			productReference = 7EFC977216C1ADE00011DD4A /* FileTransferModuleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFC975916C1ADE00011DD4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "AllSeen Alliance.";
+			};
+			buildConfigurationList = 7EFC975C16C1ADE00011DD4A /* Build configuration list for PBXProject "FileTransferModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EFC975816C1ADE00011DD4A;
+			productRefGroup = 7EFC976216C1ADE00011DD4A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B828230916EEC7D70062FEBC /* Products */;
+					ProjectRef = B8120CE516EEC77B00A4FF0A /* AllJoynFramework_iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = B8B4065016E6A1AF007D2138 /* Products */;
+					ProjectRef = B8466AC816E69E0A00A89C4D /* openssl.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7EFC976016C1ADE00011DD4A /* FileTransferModule */,
+				7EFC977116C1ADE00011DD4A /* FileTransferModuleTests */,
+				8710D1F91704BED500E48A16 /* API Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B828230F16EEC7D70062FEBC /* libAllJoynFramework_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAllJoynFramework_iOS.a;
+			remoteRef = B828230E16EEC7D70062FEBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B828231116EEC7D70062FEBC /* AllJoynFramework_iOSTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AllJoynFramework_iOSTests.octest;
+			remoteRef = B828231016EEC7D70062FEBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B8B4065616E6A1AF007D2138 /* libcrypto.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcrypto.a;
+			remoteRef = B8B4065516E6A1AF007D2138 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFC976F16C1ADE00011DD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFC978016C1ADE00011DD4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EFC977016C1ADE00011DD4A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8710D1FF1704BEDA00E48A16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Xcode appledoc script\n#\n# Start variables\nFTM_DOC_COMPANY_NAME=\"AllSeen Alliance\";\nFTM_DOC_COMPANY_ID=\"org.alljoyn.cops\";\nFTM_DOC_PLATFORM=\"macosx\";\nFTM_DOC_PATH_OUTPUT=\"${SOURCE_ROOT}/doc\";\nFTM_DOC_PATH_COMMAND=`(echo appledoc; ls /usr/bin/appledoc; ls /usr/local/bin/appledoc; which appledoc) 2>/dev/null | tail -1`\nFTM_DOC_PATH_TEMPLATES=`(echo; ls -d \"${HOME}/Library/Application Support/appledoc\"; ls -d \"${HOME}/.appledoc\") 2>/dev/null | tail -1`\n# End variables\n#\nif [ \"${FTM_DOC_PATH_TEMPLATES}\" != \"\" ]; then\n  ${FTM_DOC_PATH_COMMAND} \\\n    --project-name \"${PROJECT_NAME}\" \\\n    --project-company \"${FTM_DOC_COMPANY_NAME}\" \\\n    --company-id \"${FTM_DOC_COMPANY_ID}\" \\\n    --docset-platform-family \"${FTM_DOC_PLATFORM}\" \\\n    --output \"${FTM_DOC_PATH_OUTPUT}\" \\\n    --templates \"${FTM_DOC_PATH_TEMPLATES}\" \\\n    --logformat xcode \\\n    --keep-intermediate-files \\\n    --no-repeat-first-par \\\n    --no-warn-invalid-crossref \\\n    --no-create-docset \\\n    --ignore FileTransferModuleTests \\\n    --ignore .m \\\n    --ignore \"${SOURCE_ROOT}/FileTransferModule/AJNFileTransferBusObject.h\" \\\n    --ignore \"${SOURCE_ROOT}/FileTransferModule/AJNFileTransferBusObject.mm\" \\\n    --exit-threshold 2 \\\n    \"${PROJECT_DIR}\"\nelse\n  ${FTM_DOC_PATH_COMMAND} \\\n    --project-name \"${PROJECT_NAME}\" \\\n    --project-company \"${FTM_DOC_COMPANY_NAME}\" \\\n    --company-id \"${FTM_DOC_COMPANY_ID}\" \\\n    --docset-platform-family \"${FTM_DOC_PLATFORM}\" \\\n    --output \"${FTM_DOC_PATH_OUTPUT}\" \\\n    --logformat xcode \\\n    --keep-intermediate-files \\\n    --no-repeat-first-par \\\n    --no-warn-invalid-crossref \\\n    --no-create-docset \\\n    --ignore FileTransferModuleTests \\\n    --ignore .m \\\n    --ignore \"${SOURCE_ROOT}/FileTransferModule/AJNFileTransferBusObject.h\" \\\n    --ignore \"${SOURCE_ROOT}/FileTransferModule/AJNFileTransferBusObject.mm\" \\\n    --exit-threshold 2 \\\n    \"${PROJECT_DIR}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFC975D16C1ADE00011DD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFC976C16C1ADE00011DD4A /* FTMFileTransferModule.m in Sources */,
+				7EFC979516C1AE530011DD4A /* FTMAction.m in Sources */,
+				7EFC979716C1AE530011DD4A /* FTMFileDescriptor.m in Sources */,
+				7EFC97AE16C1AECB0011DD4A /* FTMAnnouncementManager.m in Sources */,
+				7EFC97B016C1AECB0011DD4A /* FTMDispatcher.m in Sources */,
+				7EFC97B216C1AECB0011DD4A /* FTMReceiveManager.m in Sources */,
+				7EFC97B416C1AECB0011DD4A /* FTMFileSystemAbstraction.m in Sources */,
+				7EFC97B616C1AECB0011DD4A /* FTMOfferManager.m in Sources */,
+				7EFC97B816C1AECB0011DD4A /* FTMPermissionManager.m in Sources */,
+				7EFC97BA16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m in Sources */,
+				7EFC97BC16C1AECB0011DD4A /* FTMSendManager.m in Sources */,
+				7EC8D13A16E2C02600D9BFD6 /* FTMTransmitter.m in Sources */,
+				7EC8D13D16E2D94700D9BFD6 /* FTMReceiver.m in Sources */,
+				7E19F4A216E3CA2500ECEFC6 /* FTMFileStatus.m in Sources */,
+				7E19F4A516E3F27400ECEFC6 /* FTMProgressDescriptor.m in Sources */,
+				621FDA2E16E6A03400E54384 /* AJNFileTransferBusObject.mm in Sources */,
+				621FDA2F16E6A03400E54384 /* FileTransferBusObject.m in Sources */,
+				62B8A6C516E7CD230072FE86 /* FTMConstants.m in Sources */,
+				B82A5AFE16F3891E0017499B /* FTMMessageUtility.mm in Sources */,
+				624202F4170396EB00405699 /* FTMFileTransferBusObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFC976D16C1ADE00011DD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFC978316C1ADE00011DD4A /* FTMFileTransferModuleTests.m in Sources */,
+				7EFC979616C1AE530011DD4A /* FTMAction.m in Sources */,
+				7EFC979816C1AE530011DD4A /* FTMFileDescriptor.m in Sources */,
+				7EFC97AF16C1AECB0011DD4A /* FTMAnnouncementManager.m in Sources */,
+				7EFC97B116C1AECB0011DD4A /* FTMDispatcher.m in Sources */,
+				7EFC97B316C1AECB0011DD4A /* FTMReceiveManager.m in Sources */,
+				7EFC97B516C1AECB0011DD4A /* FTMFileSystemAbstraction.m in Sources */,
+				7EFC97B716C1AECB0011DD4A /* FTMOfferManager.m in Sources */,
+				7EFC97B916C1AECB0011DD4A /* FTMPermissionManager.m in Sources */,
+				7EFC97BB16C1AECB0011DD4A /* FTMDirectedAnnouncementManager.m in Sources */,
+				7EFC97BD16C1AECB0011DD4A /* FTMSendManager.m in Sources */,
+				7EC3ABF516C2BD7700962671 /* FTMAnnouncementManagerTests.m in Sources */,
+				7EC3ABF816C2BE4400962671 /* FTMDispatcherTests.m in Sources */,
+				7EC3ABFF16C2C0D700962671 /* FTMReceiveManagerTests.m in Sources */,
+				7EC3AC0216C2C0F900962671 /* FTMFileSystemAbstractionTests.m in Sources */,
+				7EC3AC0516C2C3B600962671 /* FTMOfferManagerTests.m in Sources */,
+				7EC3AC0816C2C3DA00962671 /* FTMPermissionsManagerTests.m in Sources */,
+				7EC3AC0B16C2C3F100962671 /* FTMDirectedAnnouncementManagerTests.m in Sources */,
+				7EC3AC0E16C2C40100962671 /* FTMSendManagerTests.m in Sources */,
+				7EC3AC1116C2C5A800962671 /* FTMMockAnnouncementManager.m in Sources */,
+				7EC3AC1416C2C5C000962671 /* FTMMockDispatcher.m in Sources */,
+				7EC3AC1716C2C5D500962671 /* FTMMockReceiveManager.m in Sources */,
+				7EC3AC1A16C2C5E500962671 /* FTMMockFileSystemAbstraction.m in Sources */,
+				7EC3AC1D16C2C5FB00962671 /* FTMMockOfferManager.m in Sources */,
+				7EC3AC2016C2C61300962671 /* FTMMockPermissionsManager.m in Sources */,
+				7EC3AC2316C2C64200962671 /* FTMMockDirectedAnnouncementManager.m in Sources */,
+				7EC3AC2616C2C65500962671 /* FTMMockSendManager.m in Sources */,
+				62B8A6C016E7C85D0072FE86 /* FTMTransmitterTest.m in Sources */,
+				870C161616FBD0C400C6F537 /* FTMMockTransmitter.m in Sources */,
+				627EE19916FB7FF2005FE424 /* FTMReceiverTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D99A0116E6BBCF004756EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = crypto;
+			targetProxy = 62D99A0016E6BBCF004756EC /* PBXContainerItemProxy */;
+		};
+		7EFC977916C1ADE00011DD4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFC976016C1ADE00011DD4A /* FileTransferModule */;
+			targetProxy = 7EFC977816C1ADE00011DD4A /* PBXContainerItemProxy */;
+		};
+		B828231316EEC7E30062FEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AllJoynFramework_iOS;
+			targetProxy = B828231216EEC7E30062FEBC /* PBXContainerItemProxy */;
+		};
+		B8B4065816E6A214007D2138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = crypto;
+			targetProxy = B8B4065716E6A214007D2138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EFC977E16C1ADE00011DD4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFC977F16C1ADE00011DD4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFC978416C1ADE00011DD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EFC978516C1ADE00011DD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFC978716C1ADE00011DD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				DSTROOT = /tmp/FileTransferModule.dst;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileTransferModule/FileTransferModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_objc/AllJoynFramework\"",
+					"\"$(OPENSSL_SRC)/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DQCC_OS_GROUP_POSIX",
+					"-DQCC_OS_DARWIN",
+				);
+				PRODUCT_NAME = FileTransferModule;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EFC978816C1ADE00011DD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				DSTROOT = /tmp/FileTransferModule.dst;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileTransferModule/FileTransferModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_objc/AllJoynFramework\"",
+					"\"$(OPENSSL_SRC)/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DQCC_OS_GROUP_POSIX",
+					"-DQCC_OS_DARWIN",
+				);
+				PRODUCT_NAME = FileTransferModule;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7EFC978A16C1ADE00011DD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileTransferModule/FileTransferModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_objc/AllJoynFramework\"",
+					"\"$(OPENSSL_SRC)/include\"",
+				);
+				INFOPLIST_FILE = "FileTransferModuleTests/FileTransferModuleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DQCC_OS_GROUP_POSIX",
+					"-DQCC_OS_DARWIN",
+				);
+				OTHER_LDFLAGS = (
+					"-lalljoyn",
+					"-lajdaemon",
+					"-lBundledDaemon.o",
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_NAME = FileTransferModuleTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7EFC978B16C1ADE00011DD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileTransferModule/FileTransferModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/inc/alljoyn\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_objc/AllJoynFramework\"",
+					"\"$(OPENSSL_SRC)/include\"",
+				);
+				INFOPLIST_FILE = "FileTransferModuleTests/FileTransferModuleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/$(CURRENT_ARCH)/$(PLATFORM_NAME)/$(CONFIGURATION)/dist/cpp/lib\"",
+					"\"$(ALLJOYN_HOME)/alljoyn_core/build/darwin/arm/iphonesimulator/$(CONFIGURATION)/dist/cpp/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DQCC_OS_GROUP_POSIX",
+					"-DQCC_OS_DARWIN",
+				);
+				OTHER_LDFLAGS = (
+					"-lalljoyn",
+					"-lajdaemon",
+					"-lBundledDaemon.o",
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_NAME = FileTransferModuleTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		8710D1FA1704BED500E48A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8710D1FB1704BED500E48A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFC975C16C1ADE00011DD4A /* Build configuration list for PBXProject "FileTransferModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFC978416C1ADE00011DD4A /* Debug */,
+				7EFC978516C1ADE00011DD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFC978616C1ADE00011DD4A /* Build configuration list for PBXNativeTarget "FileTransferModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFC978716C1ADE00011DD4A /* Debug */,
+				7EFC978816C1ADE00011DD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFC978916C1ADE00011DD4A /* Build configuration list for PBXNativeTarget "FileTransferModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFC978A16C1ADE00011DD4A /* Debug */,
+				7EFC978B16C1ADE00011DD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710D1FE1704BED500E48A16 /* Build configuration list for PBXAggregateTarget "API Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710D1FA1704BED500E48A16 /* Debug */,
+				8710D1FB1704BED500E48A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFC975916C1ADE00011DD4A /* Project object */;
+}

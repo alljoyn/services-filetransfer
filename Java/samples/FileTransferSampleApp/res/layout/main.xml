@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+		<Button android:id="@+id/hostButton"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/create"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/>    
+	    <Button android:id="@+id/joinButton"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/join"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/> 
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+		<Button android:id="@+id/shareButton"
+		    android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/share"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/>    
+	    <Button android:id="@+id/stopShareButton"
+	        android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/stopShare"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/> 
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+		<Button android:id="@+id/requestButton"
+		    android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/request"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/>    
+	    <Button android:id="@+id/offerButton"
+	        android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/offer"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/> 
+    </LinearLayout>   
+    
+    <Button android:id="@+id/requestFileIdButton"
+        	android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="60dp"
+	        android:text="@string/fileId"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receiveTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_marginTop="30dp"/>
+	    
+	<ProgressBar android:id="@+id/receiveProgressBar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:layout_marginRight="10dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginBottom="5dp"/>
+	
+	<LinearLayout android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+		<Button android:id="@+id/pauseReceiveButton"
+		    android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="40dp"
+	        android:text="@string/pause"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/>    
+	    <Button android:id="@+id/cancelButton"
+	        android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="40dp"
+	        android:text="@string/cancel"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/> 
+    </LinearLayout>
+    
+	<TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	<ProgressBar android:id="@+id/sendProgressBar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:layout_marginRight="10dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginBottom="5dp"/>
+	
+	<Button android:id="@+id/cancelSendButton"
+	   	 	android:enabled="false"
+	        android:layout_width="110dp" 
+	        android:layout_height="40dp"
+	        android:text="@string/cancel"
+	        android:textSize="12sp" 
+	        android:layout_gravity="center"
+	        android:layout_marginRight="3dp"
+	        android:layout_marginLeft="3dp"/> 
+</LinearLayout>

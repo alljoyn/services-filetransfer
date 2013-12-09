@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">FtTestApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">File System</string>
+    <string name="fd_owner">Owner</string>
+    <string name="fd_sharedpath">SharedPath</string>
+    <string name="fd_relativepath">RelativePath</string>
+    <string name="fd_filename">FileName</string>
+    <string name="fd_fileid">FileId</string>
+    <string name="fd_size">Size</string>
+    <string name="empty"/>
+    <string name="announce">Announce File</string>
+
+</resources>
